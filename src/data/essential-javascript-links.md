@@ -1,16 +1,3 @@
-# Essential JavaScript Links
-
-A curated list by Eric Elliott and friends. Suggest a link with a PR or [open a new issue](https://github.com/ericelliott/essential-javascript-links/issues/new).
-
-[Help us turn this into a proper website!](https://github.com/ericelliott/essential-javascript-links/issues)
-
-This is a very exclusive collection of only must-have JavaScript links. I'm only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they're good enough to make this list. The really curious should feel free to browse the comments to find other links. I can't guarantee the quality of links in the comments.
-
-## Full Disclosure
-
-Some of these links are affiliate links, meaning that if you make a purchase, I might earn a little money. **This has absolutely no bearing on whether or not links make the list.** *None, whatsoever.* However, it does allow me more resources to **[fight poverty with code](https://medium.com/the-backer-army/fighting-poverty-with-code-d1ed3ebd982d)**. *Every little bit counts.*
-
-
 ## Required Reading (Online resources)
 
 * [Learn JavaScript Essentials (for all skill levels)](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2) One clear path to JavaScript mastery
@@ -19,7 +6,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [The Two Pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 * [How to Fix the `class` Keyword](https://medium.com/p/how-to-fix-the-es6-class-keyword-2d42bb3f4caf) TL;DR `class` is broken. Don't use it until it's fixed.
 * [JavaScript Objects](http://davidwalsh.name/javascript-objects) An excellent explanation of inheritance in JavaScript by Kyle Simpson
-* [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/) Make your JS apps more secure by freezing builtins.
 * [Isomorphic JavaScript](http://isomorphic.net/)
 * [JavaScript Application Architecture on the Road to 2015](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b) Addy Osmani
 * [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd) The Way of the Functional Programmer
@@ -84,7 +70,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 * [Browserify](http://browserify.org/) Bundle modules for the browser.
 * [How to use NPM as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
-* [pre-commit](https://github.com/observing/pre-commit) Easily configure pre-commit hooks for your package
 
 
 ### Testing / Lint / Quality checkers
@@ -144,7 +129,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [velocity](http://julian.com/research/velocity/) & [Velocity Motion Designer (VMD)](http://julian.com/research/velocity/#vmd) UI animation library.
 * [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)  A fast [json-schema](http://json-schema.org/) validator.
 * [inquirer.js](https://github.com/SBoudrias/Inquirer.js) Great library for building CLI tools.
-* [rimraf](https://github.com/isaacs/rimraf) `rm -rf` util for nodejs. Great for npm scripts.
 
 
 ## React
@@ -202,7 +186,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [EchoJS](http://www.echojs.com/)
 * [DailyJS](http://dailyjs.com/)
 * [JavaScript Jabber](http://devchat.tv/js-jabber/)
-* [Node Module Of The Week](http://nmotw.in)
 
 
 ## Pasting / sharing code
@@ -247,8 +230,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Angus Croll](https://twitter.com/angustweets) Author, "If Hemingway Wrote JavaScript"
 * [Axel Rauschmayer](https://twitter.com/rauschma) ES Next evangelist, author
 * [Brendan Eich](https://twitter.com/BrendanEich) Created JavaScript
-* [David Herman](https://twitter.com/littlecalculist) Author, "Effective JavaScript"
 * [David Nolen](https://twitter.com/swannodette) Great functional programming content
+* [David Herman](https://twitter.com/littlecalculist) Author, "Effective JavaScript"
 * [EchoJS](https://twitter.com/echojs) News and links
 * [Eric Elliott](https://twitter.com/_ericelliott) That's me. O'Reilly author. JavaScript architect. JS Instructor.
 * [Jafar Husain](https://twitter.com/jhusain) Great talks on RxJS, ES next, etc...
@@ -262,6 +245,5 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Nicholas C. Zakas](https://twitter.com/slicknet) Author, speaker
 * [Nick Morgan](https://twitter.com/skilldrick) Author, "JavaScript for Kids"
 * [Paul Irish](https://twitter.com/paul_irish) Developer evangelist, Chrome dev tools champion
-* [Reginald Braithwaite](https://twitter.com/raganwald) Author, "JavaScript Allongé", speaker, PagerDuty
+* [Reginald Braithwaite](https://twitter.com/raganwald) Author, "JavaScript Allongé", speaker, GitHub
 * [YDKJS](https://twitter.com/ydkjs) You Don't Know JS, O'Reilly book series by Kyle Simpson
-* [Nicolas Bevacqua](https://twitter.com/nzgb) Author "JavaScript Application Design", Speaker, Open-Source Evangelist
