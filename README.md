@@ -14,21 +14,19 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 ## Required Reading (Online resources)
 
 * [Learn JavaScript Essentials (for all skill levels)](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2) One clear path to JavaScript mastery
-* [JavaScript Training Sucks](https://medium.com/javascript-scene/javascript-training-sucks-284b53666245) 99 out of 100 JS developers lack the skills they need to fill hundreds of thousands of jobs. We can change that.
 * [The Two Pillars of JavaScript Part 1: Prototypal OO](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 * [The Two Pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
-* [How to Fix the `class` Keyword](https://medium.com/p/how-to-fix-the-es6-class-keyword-2d42bb3f4caf) TL;DR `class` is broken. Don't use it until it's fixed.
 * [JavaScript Objects](http://davidwalsh.name/javascript-objects) An excellent explanation of inheritance in JavaScript by Kyle Simpson
+* [How to Use ES6 for Isomorphic JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2) A Babel config walkthrough
 * [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/) Make your JS apps more secure by freezing builtins.
-* [Isomorphic JavaScript](http://isomorphic.net/)
 * [JavaScript Application Architecture on the Road to 2015](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b) Addy Osmani
+* [Modularity](http://jlongster.com/Modularity) A pragmatic take on the tiny modules vs batteries included approach
 * [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd) The Way of the Functional Programmer
 * [Reactive MVC and the Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom) Great read, even if you're not a React user.
 * [Introduction to Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [The General Theory of Reactivity](https://github.com/kriskowal/gtor) What is all this talk about reactive? Functional? Promises? This is the beginning of a reactive programming bible.
 * [ES6 Generators](http://davidwalsh.name/es6-generators) A series of blog posts by Kyle Simpson
 * [Typed JavaScript](http://www.2ality.com/2014/10/typed-javascript.html) Excellent post about the state of typed JavaScript by Axel Rauschmayer
-* [Taming the Asynchronous Beast with CSP in JavaScript](http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript) James Long
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html) by @rauschma #AMDisDead
 * [Advanced Performance Audits with DevTools](http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/) In-depth perf case studies with Paul Irish
 
@@ -44,7 +42,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 ## Spec
 
 * [ES5 Spec](http://es5.github.io/) An annotated, hyperlinked version of the ES5 spec
-* [ES6 draft](https://people.mozilla.org/~jorendorff/es6-draft.html)
+* [ES6 Spec](http://www.ecma-international.org/ecma-262/6.0/)
 
 
 ## Books
@@ -68,16 +66,15 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [nvm](https://github.com/creationix/nvm) First install this...
 * [Node](http://nodejs.org/) Then install Node (with nvm). You'll need this even if you're a front-end dev.
 * [npm](https://www.npmjs.com/) Install lots of other things with npm. **The package manager for JavaScript.** Comes with Node.
-* [Sublime Text 3](http://www.sublimetext.com/3)
-* [Node Inspector](https://github.com/node-inspector/node-inspector) Debug Node code with the Chrome debug tools
+* [Atom](https://atom.io/) Nice, hackable editor by GitHub.
+* [Node Inspector](https://github.com/node-inspector/node-inspector) Debug Node code with the Chrome debug tools `--save-live-edit true`
 * [TraceGL](https://github.com/traceglMPL/tracegl) Powerful runtime analysis of live JavaScript code
 * [Tern](http://ternjs.net/) Static analysis in JavaScript
 * [JSDoc](http://usejsdoc.org/) Pair with [Tern](http://ternjs.net/) for static analysis
-* [Nitrous.IO](https://www.nitrous.io/join/uJcRo6yQDvs?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) (Supports live collaboration / pair programming)
+* [Slate](https://github.com/tripit/slate) Generate beautiful API docs for your apps
 * [Slack](http://slack.com) Chat for teams, with GitHub and Google hangouts integration
-  * For hangouts, just type /hangout in any channel
 * [PrettyDiff](http://prettydiff.com/)
-* [ES6 Fiddle](http://www.es6fiddle.net/)
+* [Babel Repl](https://babeljs.io/repl) The Babel REPL with compiled output
 
 
 ## Building
@@ -120,7 +117,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [es6-shim](https://github.com/es-shims/es6-shim/) Somewhat stable, but a few things I thought were solid got shifted to ES7.
 * [es7-shim](https://www.npmjs.com/package/es7-shim) Experimental. Use with caution.
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) A fairly comprehensive list of HTML5 API polyfills.
-* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com).
+* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com)
+* [prod-module-boilerplate](https://github.com/ericelliott/prod-module-boilerplate) A boilerplate for production-ready JavaScript packages
 * [The Isomorphic Express Boilerplate](https://github.com/ericelliott/isomorphic-express-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify.
 * [rootrequire](https://github.com/ericelliott/rootrequire) Require files relative to your project path using the normal node require().
 * [dotty](https://github.com/deoxxa/dotty) Get deep properties using dot notation without throwing. e.g., `dotty.get(req, 'user.id');`
@@ -128,6 +126,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) A [WHATWG fetch](https://fetch.spec.whatwg.org/). standard polyfill.
 * [sseasy](https://github.com/heroku/sseasy) Server Sent Events for Node (HTML5 standard push notifications).
 * [EventSource browser Polyfill](https://github.com/Yaffle/EventSource/) Required client-side patching to support Server Sent Events.
+* [TodoMVC](http://todomvc.com/) A showcase implementing many MV* libraries/frameworks using a standardized demo app (for easy comparisons).
 * [jQuery](http://jquery.com/) Yes, [I still use jQuery](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit#) and so do 61% of the top 100,000 websites - for good reason.
 * [Blaze](http://meteor.github.io/blaze/) DOM-diffing isomorphic reactive templates from Meteor.
 * [React](https://github.com/facebook/react) What do Facebook, Instagram, Netflix and PayPal have in common? React.
@@ -183,6 +182,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Travis CI](https://travis-ci.org/) CI, of course
 * [Docker](https://www.docker.com/) Run your CI process using the same OS configs as your production systems.
 * [Shippable](https://www.shippable.com/) Docker-based hosted build / CI
+* [Tensō](http://avoidwork.github.io/tenso/) A thin API facade in Node
+* [Kong](http://getkong.org/) API/microservice extension and management layer, centralize auth, cache, logging, rate limiting, etc... plugins in LUA );
 
 
 ## Community
@@ -193,6 +194,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * IRC ##JavaScript irc://irc.freenode.net/javascript
 * IRC #node.js irc://irc.freenode.net/node.js
 * IRC #io.js irc://irc.freenode.net/io.js The Node fork
+* IRC #learnjavascript irc://irc.freenode.net/learnjavascript
 
 
 ## News
@@ -209,6 +211,9 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 * [Codepen](http://codepen.io/pen/)
 * [RequireBin](http://requirebin.com/)
+* [ES6 Fiddle](http://www.es6fiddle.net/)
+* [CodePicNic](https://codepicnic.com/) Embed interactive full-stack snippets & demos
+* [JSBin](http://jsbin.com/?html,css,js,output) Embed editable code snippets.
 
 
 ## Contests
