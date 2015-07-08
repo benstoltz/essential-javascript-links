@@ -17,7 +17,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [The Two Pillars of JavaScript Part 1: Prototypal OO](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 * [The Two Pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 * [JavaScript Objects](http://davidwalsh.name/javascript-objects) An excellent explanation of inheritance in JavaScript by Kyle Simpson
-* [How to Use ES6 for Isomorphic JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2) A Babel config walkthrough
+* [How to Use ES6 for Universal JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2) A Babel config walkthrough
 * [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/) Make your JS apps more secure by freezing builtins.
 * [JavaScript Application Architecture on the Road to 2015](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b) Addy Osmani
 * [Modularity](http://jlongster.com/Modularity) A pragmatic take on the tiny modules vs batteries included approach
@@ -28,6 +28,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [ES6 Generators](http://davidwalsh.name/es6-generators) A series of blog posts by Kyle Simpson
 * [Typed JavaScript](http://www.2ality.com/2014/10/typed-javascript.html) Excellent post about the state of typed JavaScript by Axel Rauschmayer
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html) by @rauschma #AMDisDead
+* [javascript-sdk-design](https://github.com/huei90/javascript-sdk-design) A guide for people building JavaScript client SDKs
 * [Advanced Performance Audits with DevTools](http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/) In-depth perf case studies with Paul Irish
 
 ## Required Viewing
@@ -51,12 +52,14 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Eloquent JavaScript](http://eloquentjavascript.net/) by Marijn Haverbeke
 * [JavaScript: The Good Parts](http://www.amazon.com/gp/product/0596517742?ie=UTF8&camp=213733&creative=393185&creativeASIN=0596517742&linkCode=shr&tag=ericleads-20&linkId=IJKESYSOTWGC27DR) by Douglas Crockford
 * [Effective JavaScript](http://www.amazon.com/gp/product/0321812182?ie=UTF8&camp=213733&creative=393185&creativeASIN=0321812182&linkCode=shr&tag=ericleads-20&linkId=JIC63I267I6UDQQZ) by David Herman
+* [Learn JavaScript Universal App Development with Node, ES6, & React](https://leanpub.com/learn-javascript-react-nodejs-es6/) by Eric Elliott
 * [Programming JavaScript Applications](http://pjabook.com) by Eric Elliott
 * [JavaScript: The Definitive Guide](http://www.amazon.com/gp/product/0596805527?ie=UTF8&camp=213733&creative=393185&creativeASIN=0596805527&linkCode=shr&tag=ericleads-20&linkId=AENIF5KLRQI3N335) by David Flanagan
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
 * [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/) by Nicholas C. Zakas
 * [JavaScript Allongé](https://leanpub.com/javascriptallongesix) by Reginald Braithwaite
 * [Node.js in Action](http://www.manning.com/cantelon/) by Mike Cantelon, Marc Harter, T.J. Holowaychuk and Nathan Rajlich
+* ["Seven Languages in Seven Weeks"](https://pragprog.com/book/btlang/seven-languages-in-seven-weeks) Learn different ways of solving problems and you'll deepen your understanding of JavaScript. #book
 * [The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal](http://www.amazon.com/gp/product/0670899763?ie=UTF8&camp=213733&creative=393177&creativeASIN=0670899763&linkCode=shr&tag=ericleads-20&linkId=NDUXYQOCMPC47SQI) by M. Mitchell Waldrop
 * [WebGL Fundamentals](http://webglfundamentals.org/) by Greggman - An interactive online book about graphics programming.
 
@@ -75,6 +78,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Slack](http://slack.com) Chat for teams, with GitHub and Google hangouts integration
 * [PrettyDiff](http://prettydiff.com/)
 * [Babel Repl](https://babeljs.io/repl) The Babel REPL with compiled output
+* [Nitrous.IO](https://pro.nitrous.io/) Online IDE in the cloud with collaboration & Docker containers
+* [Koding](https://koding.com) Online cloud development platform with video & audio collaboration
 
 
 ## Building
@@ -92,7 +97,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [eslint-plugin-no-class](https://github.com/emmenko/eslint-plugin-no-class) Forbid the ES6 `class` keyword. [Why?](https://github.com/eslint/eslint/pull/2096#issuecomment-83044888)
 * [ESLint no-inferred-methodname](https://github.com/johnstonbl01/eslint-no-inferred-method-name) A custom rule for a common problem.
 * [Istanbul](https://github.com/gotwarlost/istanbul) Code coverage reporting
-* [tape](https://github.com/substack/tape) Minimal, dead simple unit testing. (This is all you need, really!)
+* [blue-tape](https://github.com/spion/blue-tape) Minimal, dead simple unit testing using [tape](https://github.com/substack/tape). (This is all you need, really!)
 * [faucet](https://github.com/substack/faucet) Prettify unit testing output (like what comes from tape).
 * [Supertest](https://github.com/tj/supertest) The best way to test HTTP endpoints.
 
@@ -113,28 +118,32 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Libraries
 
+* [stats.js.org](http://stats.js.org/) JavaScript repos ranked by popularity.
 * [es5-shim](https://github.com/es-shims/es5-shim) Stable, production ready.
 * [es6-shim](https://github.com/es-shims/es6-shim/) Somewhat stable, but a few things I thought were solid got shifted to ES7.
 * [es7-shim](https://www.npmjs.com/package/es7-shim) Experimental. Use with caution.
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) A fairly comprehensive list of HTML5 API polyfills.
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com)
 * [prod-module-boilerplate](https://github.com/ericelliott/prod-module-boilerplate) A boilerplate for production-ready JavaScript packages
-* [The Isomorphic Express Boilerplate](https://github.com/ericelliott/isomorphic-express-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify.
-* [rootrequire](https://github.com/ericelliott/rootrequire) Require files relative to your project path using the normal node require().
+* [The Universal React Boilerplate](https://github.com/ericelliott/universal-react-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify.
+* [NodeGoat](https://github.com/OWASP/NodeGoat) Identify security vulnerabilities in your Node apps.
+* [lightning.js](https://github.com/olark/lightningjs) Async fetch load 3rd party JS & expose a promise API.
 * [dotty](https://github.com/deoxxa/dotty) Get deep properties using dot notation without throwing. e.g., `dotty.get(req, 'user.id');`
 * [native-promise-only](https://github.com/getify/native-promise-only) An ECMAScript standard promise polyfill by Kyle Simpson.
 * [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) A [WHATWG fetch](https://fetch.spec.whatwg.org/). standard polyfill.
 * [sseasy](https://github.com/heroku/sseasy) Server Sent Events for Node (HTML5 standard push notifications).
 * [EventSource browser Polyfill](https://github.com/Yaffle/EventSource/) Required client-side patching to support Server Sent Events.
 * [TodoMVC](http://todomvc.com/) A showcase implementing many MV* libraries/frameworks using a standardized demo app (for easy comparisons).
-* [jQuery](http://jquery.com/) Yes, [I still use jQuery](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit#) and so do 61% of the top 100,000 websites - for good reason.
+* [jQuery](http://jquery.com/) Most popular JS lib by a landslide.
 * [Blaze](http://meteor.github.io/blaze/) DOM-diffing isomorphic reactive templates from Meteor.
 * [React](https://github.com/facebook/react) What do Facebook, Instagram, Netflix and PayPal have in common? React.
+* [Cycle.js](http://cycle.js.org) Like React, but more functional & reactive
 * [Lodash-FP](https://github.com/lodash/lodash-fp) Like Underscore, but much faster, and featuring a more expressive API.
 * [RxJS](https://github.com/Reactive-Extensions/RxJS) Reactive extensions for JavaScript. [What's reactive?](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 * [Page.js](https://github.com/visionmedia/page.js) Tiny client-side router, inspired by Express.
 * [Moment](http://momentjs.com/docs/) A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
-* [Globalize](https://github.com/jquery/globalize) i18n / translate your app for many languages and locations (locales)
+* [Globalize](https://github.com/jquery/globalize) i18n / translate your app for many languages and locations (locales).
+* [Leaflet](http://leafletjs.com/) Interactive map UIs made easy.
 * [Lusca](https://github.com/krakenjs/lusca) Secure your Express application. By the Kraken team at PayPal.
 * [Express](http://expressjs.com/) The most popular framework for Node.
 * [Stampit](https://github.com/ericelliott/stampit) Create objects from reusable, composable behaviors. Prototypal inheritance with stamps.
@@ -149,17 +158,34 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 ## React
 
 * [Introducing React](https://www.youtube.com/watch?v=XxVg_s8xAms)
+* [React blog](http://facebook.github.io/react/blog/) Official React blog
+* [react-stampit](https://github.com/stampit-org/react-stampit) Composable, classless React components made easy
 * [JSX Looks Like an Abomination but it's Good for You](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918) My take on JSX
+* [Baby's First Reaction](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd) Build your first working React component
 * [Immutable Data and React](https://www.youtube.com/watch?v=I7IdS-PbEgI&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr) by [Lee Byron](https://twitter.com/leeb)
-* [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
-* [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html)
-* [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
-* [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47)
 * [react-engine](https://github.com/paypal/react-engine) PayPal's isomorphic React view engine for Express or Kraken
 * [Radium](http://projects.formidablelabs.com/radium/) Simplify inline styles
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 * [React Hot Loader](https://gaearon.github.io/react-hot-loader/) for Webpack
 * [livereactload](https://github.com/milankinen/livereactload) for Browserify
+* [react-native](https://github.com/facebook/react-native)
+* [react-art](https://github.com/reactjs/react-art)
+* [react-canvas](https://github.com/Flipboard/react-canvas)
+* [react-three](https://github.com/Izzimach/react-three) Three.js rendering for React
+* [react.rocks](http://react.rocks/) Pinterest-style directory of online demos with available code
+* [TodoMVC in React](http://todomvc.com/examples/react/)
+* [JSX Specification](http://facebook.github.io/jsx/)
+
+## Relay & GraphQL
+
+* [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
+* [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html)
+* [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
+* [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47)
+* [GraphQL Specification](https://github.com/facebook/graphql)
+* [GraphQL Reference Implementation](https://github.com/graphql/graphql-js)
+* [graphql-server](https://github.com/RisingStack/graphql-server) A GraphQL server implementation with Mongo / Mongoose
+* [Mutations in Relay (slideshow)](https://speakerdeck.com/laneyk/mutations-in-relay) Slideshow + speaker notes
 
 
 ## Web Components
@@ -188,6 +214,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Community
 
+* [JavaScript Questions Chat](https://gitter.im/learn-javascript-courses/javascript-questions)
 * [JavaScript on Google+](https://plus.google.com/communities/100875929141897651837)
 * [HTML5 on Google+](https://plus.google.com/communities/103299867207875326585)
 * [Node.js on Google+](https://plus.google.com/communities/115365528781941125390)
@@ -198,13 +225,16 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 
 ## News
+* [JavaScript Scene](https://medium.com/javascript-scene)
 * [JavaScript Weekly](http://javascriptweekly.com/)
 * [Node Weekly](http://nodeweekly.com/)
 * [HTML5 Weekly](http://html5weekly.com/)
 * [EchoJS](http://www.echojs.com/)
+* [JavaScript Live](https://jslive.com/)
 * [DailyJS](http://dailyjs.com/)
 * [JavaScript Jabber](http://devchat.tv/js-jabber/)
 * [Node Module Of The Week](http://nmotw.in)
+* [JavascriptKicks](http://javascriptkicks.com)
 
 
 ## Pasting / sharing code
@@ -239,9 +269,12 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 * [DigitalOcean](https://www.digitalocean.com/?refcode=fdcfedac5208)
 
-## For kids (and people who just love to have fun)
+## For kids (and adults who just love to have fun)
 
 * [JavaScript for Kids](http://www.amazon.com/gp/product/B00QL616QE?ie=UTF8&camp=213733&creative=393177&creativeASIN=B00QL616QE&linkCode=shr&tag=ericleads-20&linkId=6AOODC27L6URY3K2)
+* [Screeps](https://screeps.com/) A strategy game you control by writing JavaScript
+* [CodingGame](https://www.codingame.com) Programming puzzle games
+* [Fightcode](http://fightcodegame.com/) Program robots to do battle
 * [LearnToMod](http://www.learntomod.com/) Mod Minecraft with JavaScript
 * [The Young Person's Guide to Programming in Minecraft](https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md#the-young-persons-guide-to-programming-in-minecraft)
 
@@ -261,6 +294,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [James Long](https://twitter.com/jlongster) CSP, functional programming advocate, Mozilla developer
 * [JavaScript Cheerleader](https://twitter.com/JS_Cheerleader) Mover & shaker, JavaScript evangelist, documentary film maker
 * [JavaScript Daily](https://twitter.com/JavaScriptDaily) News and links
+* [JavaScriptKicks](https://twitter.com/JavaScriptKicks) News and links
 * [Jordan Harband](https://twitter.com/ljharb) Keeping us ahead of the JS curve
 * [Kyle Simpson](https://twitter.com/getify) Author, YDKJS - O'Reilly, JS Instructor, open web evangelist
 * [Marijn Haverbeke](https://twitter.com/marijnjh) Author, "Eloquent JavaScript"
