@@ -4,7 +4,7 @@ A curated list by Eric Elliott and friends. Suggest a link with a PR or [open a 
 
 [Help us turn this into a proper website!](https://github.com/ericelliott/essential-javascript-links/issues)
 
-This is a very exclusive collection of only must-have JavaScript links. I'm only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they're good enough to make this list. The really curious should feel free to browse the comments to find other links. I can't guarantee the quality of links in the comments.
+This is a very exclusive collection of only must-have JavaScript links. I'm only listing my favorite links. Nothing else makes the cut. Feel free to suggest links if you think they're truly essential.
 
 ## Full Disclosure
 
@@ -36,6 +36,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Asynchronous Programming at Netflix](https://www.youtube.com/watch?v=gawmdhCNy-A) [Jafar Husain](https://twitter.com/jhusain)
 * [What is Reactive Programming?](https://www.youtube.com/watch?v=dwP1TNXE6fc) [Jafar Husain](https://twitter.com/jhusain) explains reactive programming
 * [Immutability: Putting The Dream Machine To Work](https://www.youtube.com/watch?v=SiFwRtCnxv4) by [David Nolen](https://twitter.com/swannodette)
+* [JavaScript API Design Principles](https://www.youtube.com/watch?v=HYl7ReNB5TA) by Ariya Hidayat
 * [Delivering the Goods](https://www.youtube.com/watch?v=R8W_6xWphtw) Paul Irish on one of the most important but overlooked topics in the development world today - page load times.
 * [Simplicity Matters](https://www.youtube.com/watch?v=rI8tNMsozo0) A later version of the influential talk, "Simple Made Easy" by [Rich Hickey](https://twitter.com/richhickey)
 
@@ -76,6 +77,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [JSDoc](http://usejsdoc.org/) Pair with [Tern](http://ternjs.net/) for static analysis
 * [Slate](https://github.com/tripit/slate) Generate beautiful API docs for your apps
 * [Slack](http://slack.com) Chat for teams, with GitHub and Google hangouts integration
+* [Gitter](https://gitter.im/) Like Slack, but better for OSS projects and free chat.
+* [Airety](https://airety.com/) Better developer interviews via pair programming.
 * [PrettyDiff](http://prettydiff.com/)
 * [Babel Repl](https://babeljs.io/repl) The Babel REPL with compiled output
 * [Nitrous.IO](https://pro.nitrous.io/) Online IDE in the cloud with collaboration & Docker containers
@@ -85,6 +88,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 ## Building
 
 * [Browserify](http://browserify.org/) Bundle modules for the browser.
+* [Webpack](http://webpack.github.io/) Similar to Browserify, with more batteries included and a config file. Supports live patching rebuilds.
 * [How to use NPM as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 * [pre-commit](https://github.com/observing/pre-commit) Easily configure pre-commit hooks for your package
 
@@ -104,7 +108,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ### Transpilers
 
-* [Babel](https://github.com/babel/babel) Transpile ES6, ES7 to ES5
+* [Babel](https://github.com/babel/babel) Transpile ES2015 (ES6), ES7 to ES5, JSX to React
 * [CoffeeScript](http://coffeescript.org/)
 * [Emscripten](http://kripken.github.io/emscripten-site/) Frequently used for C/C++ JavaScript ports
 * [ES6 tools](https://github.com/addyosmani/es6-tools) Addy Osmani's ES6 Tools list
@@ -182,6 +186,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html)
 * [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
 * [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47)
+* [Getting started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
 * [GraphQL Specification](https://github.com/facebook/graphql)
 * [GraphQL Reference Implementation](https://github.com/graphql/graphql-js)
 * [graphql-server](https://github.com/RisingStack/graphql-server) A GraphQL server implementation with Mongo / Mongoose
@@ -231,7 +236,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [HTML5 Weekly](http://html5weekly.com/)
 * [EchoJS](http://www.echojs.com/)
 * [JavaScript Live](https://jslive.com/)
-* [DailyJS](http://dailyjs.com/)
 * [JavaScript Jabber](http://devchat.tv/js-jabber/)
 * [Node Module Of The Week](http://nmotw.in)
 * [JavascriptKicks](http://javascriptkicks.com)
