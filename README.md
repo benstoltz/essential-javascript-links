@@ -25,6 +25,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Reactive MVC and the Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom) Great read, even if you're not a React user.
 * [Introduction to Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [The General Theory of Reactivity](https://github.com/kriskowal/gtor) What is all this talk about reactive? Functional? Promises? This is the beginning of a reactive programming bible.
+* [Why Functional Programming Matters](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.pdf) by John Hughes, 1984 #paper #pdf
 * [ES6 Generators](http://davidwalsh.name/es6-generators) A series of blog posts by Kyle Simpson
 * [Typed JavaScript](http://www.2ality.com/2014/10/typed-javascript.html) Excellent post about the state of typed JavaScript by Axel Rauschmayer
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html) by @rauschma #AMDisDead
@@ -32,13 +33,15 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Advanced Performance Audits with DevTools](http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/) In-depth perf case studies with Paul Irish
 
 ## Required Viewing
-* [Classical Inheritance is Obsolete: How to Think in Prototypal OO](https://vimeo.com/69255635) by [Eric Elliott](https://twitter.com/_ericelliott)
-* [Asynchronous Programming at Netflix](https://www.youtube.com/watch?v=gawmdhCNy-A) [Jafar Husain](https://twitter.com/jhusain)
-* [What is Reactive Programming?](https://www.youtube.com/watch?v=dwP1TNXE6fc) [Jafar Husain](https://twitter.com/jhusain) explains reactive programming
-* [Immutability: Putting The Dream Machine To Work](https://www.youtube.com/watch?v=SiFwRtCnxv4) by [David Nolen](https://twitter.com/swannodette)
-* [JavaScript API Design Principles](https://www.youtube.com/watch?v=HYl7ReNB5TA) by Ariya Hidayat
-* [Delivering the Goods](https://www.youtube.com/watch?v=R8W_6xWphtw) Paul Irish on one of the most important but overlooked topics in the development world today - page load times.
-* [Simplicity Matters](https://www.youtube.com/watch?v=rI8tNMsozo0) A later version of the influential talk, "Simple Made Easy" by [Rich Hickey](https://twitter.com/richhickey)
+* [Classical Inheritance is Obsolete: How to Think in Prototypal OO](https://vimeo.com/69255635) by [Eric Elliott](https://twitter.com/_ericelliott) #talk
+* [Asynchronous Programming at Netflix](https://www.youtube.com/watch?v=gawmdhCNy-A) [Jafar Husain](https://twitter.com/jhusain) #talk
+* [What is Reactive Programming?](https://www.youtube.com/watch?v=dwP1TNXE6fc) [Jafar Husain](https://twitter.com/jhusain) explains reactive programming #talk
+* [Immutability: Putting The Dream Machine To Work](https://www.youtube.com/watch?v=SiFwRtCnxv4) by [David Nolen](https://twitter.com/swannodette) #talk
+* [The Essence of FRP](http://begriffs.com/posts/2015-07-22-essence-of-frp.html) by Conal Elliott #talk
+* [JavaScript API Design Principles](https://www.youtube.com/watch?v=HYl7ReNB5TA) by Ariya Hidayat #talk
+* [Delivering the Goods](https://www.youtube.com/watch?v=R8W_6xWphtw) Paul Irish on one of the most important but overlooked topics in the development world today - page load times. #talk
+* [Simplicity Matters](https://www.youtube.com/watch?v=rI8tNMsozo0) A later version of the influential talk, "Simple Made Easy" by [Rich Hickey](https://twitter.com/richhickey) #talk
+* [Making WebGL Dance](https://www.youtube.com/watch?v=GNO_CYUjMK8) by Steven Wittens #talk
 
 
 ## Spec
@@ -63,6 +66,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * ["Seven Languages in Seven Weeks"](https://pragprog.com/book/btlang/seven-languages-in-seven-weeks) Learn different ways of solving problems and you'll deepen your understanding of JavaScript. #book
 * [The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal](http://www.amazon.com/gp/product/0670899763?ie=UTF8&camp=213733&creative=393177&creativeASIN=0670899763&linkCode=shr&tag=ericleads-20&linkId=NDUXYQOCMPC47SQI) by M. Mitchell Waldrop
 * [WebGL Fundamentals](http://webglfundamentals.org/) by Greggman - An interactive online book about graphics programming.
+
 
 
 ## Dev tools & collaboration
@@ -122,41 +126,42 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Libraries
 
-* [stats.js.org](http://stats.js.org/) JavaScript repos ranked by popularity.
-* [es5-shim](https://github.com/es-shims/es5-shim) Stable, production ready.
-* [es6-shim](https://github.com/es-shims/es6-shim/) Somewhat stable, but a few things I thought were solid got shifted to ES7.
-* [es7-shim](https://www.npmjs.com/package/es7-shim) Experimental. Use with caution.
-* [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) A fairly comprehensive list of HTML5 API polyfills.
-* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com)
-* [prod-module-boilerplate](https://github.com/ericelliott/prod-module-boilerplate) A boilerplate for production-ready JavaScript packages
-* [The Universal React Boilerplate](https://github.com/ericelliott/universal-react-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify.
-* [NodeGoat](https://github.com/OWASP/NodeGoat) Identify security vulnerabilities in your Node apps.
-* [lightning.js](https://github.com/olark/lightningjs) Async fetch load 3rd party JS & expose a promise API.
-* [dotty](https://github.com/deoxxa/dotty) Get deep properties using dot notation without throwing. e.g., `dotty.get(req, 'user.id');`
-* [native-promise-only](https://github.com/getify/native-promise-only) An ECMAScript standard promise polyfill by Kyle Simpson.
-* [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) A [WHATWG fetch](https://fetch.spec.whatwg.org/). standard polyfill.
-* [sseasy](https://github.com/heroku/sseasy) Server Sent Events for Node (HTML5 standard push notifications).
-* [EventSource browser Polyfill](https://github.com/Yaffle/EventSource/) Required client-side patching to support Server Sent Events.
-* [TodoMVC](http://todomvc.com/) A showcase implementing many MV* libraries/frameworks using a standardized demo app (for easy comparisons).
-* [jQuery](http://jquery.com/) Most popular JS lib by a landslide.
-* [Blaze](http://meteor.github.io/blaze/) DOM-diffing isomorphic reactive templates from Meteor.
-* [React](https://github.com/facebook/react) What do Facebook, Instagram, Netflix and PayPal have in common? React.
-* [Cycle.js](http://cycle.js.org) Like React, but more functional & reactive
-* [Lodash-FP](https://github.com/lodash/lodash-fp) Like Underscore, but much faster, and featuring a more expressive API.
-* [RxJS](https://github.com/Reactive-Extensions/RxJS) Reactive extensions for JavaScript. [What's reactive?](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
-* [Page.js](https://github.com/visionmedia/page.js) Tiny client-side router, inspired by Express.
-* [Moment](http://momentjs.com/docs/) A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
-* [Globalize](https://github.com/jquery/globalize) i18n / translate your app for many languages and locations (locales).
-* [Leaflet](http://leafletjs.com/) Interactive map UIs made easy.
+* [stats.js.org](http://stats.js.org/) JavaScript repos ranked by popularity. #code
+* [es5-shim](https://github.com/es-shims/es5-shim) Stable, production ready. #code
+* [es6-shim](https://github.com/es-shims/es6-shim/) Somewhat stable, but a few things I thought were solid got shifted to ES7. #code
+* [es7-shim](https://www.npmjs.com/package/es7-shim) Experimental. Use with caution. #code
+* [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) A fairly comprehensive list of HTML5 API polyfills. #code
+* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com) #code
+* [prod-module-boilerplate](https://github.com/ericelliott/prod-module-boilerplate) A boilerplate for production-ready JavaScript packages #code
+* [The Universal React Boilerplate](https://github.com/ericelliott/universal-react-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify. #code
+* [NodeGoat](https://github.com/OWASP/NodeGoat) Identify security vulnerabilities in your Node apps. #code
+* [lightning.js](https://github.com/olark/lightningjs) Async fetch load 3rd party JS & expose a promise API. #code
+* [dotty](https://github.com/deoxxa/dotty) Get deep properties using dot notation without throwing. e.g., `dotty.get(req, 'user.id');` #code
+* [native-promise-only](https://github.com/getify/native-promise-only) An ECMAScript standard promise polyfill by Kyle Simpson. #code
+* [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) A [WHATWG fetch](https://fetch.spec.whatwg.org/). standard polyfill. #code
+* [sseasy](https://github.com/heroku/sseasy) Server Sent Events for Node (HTML5 standard push notifications). #code
+* [EventSource browser Polyfill](https://github.com/Yaffle/EventSource/) Required client-side patching to support Server Sent Events. #code
+* [TodoMVC](http://todomvc.com/) A showcase implementing many MV* libraries/frameworks using a standardized demo app (for easy comparisons). #code
+* [jQuery](http://jquery.com/) Most popular JS lib by a landslide. #code
+* [Blaze](http://meteor.github.io/blaze/) DOM-diffing isomorphic reactive templates from Meteor. #code
+* [React](https://github.com/facebook/react) What do Facebook, Instagram, Netflix and PayPal have in common? React. #code
+* [Cycle.js](http://cycle.js.org) Like React, but more functional & reactive #code
+* [Lodash-FP](https://github.com/lodash/lodash-fp) Like Underscore, but much faster, and featuring a more expressive API. #code
+* [RxJS](https://github.com/Reactive-Extensions/RxJS) Reactive extensions for JavaScript. [What's reactive?](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4) #code
+* [Page.js](https://github.com/visionmedia/page.js) Tiny client-side router, inspired by Express. #code
+* [Moment](http://momentjs.com/docs/) A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates. #code
+* [Globalize](https://github.com/jquery/globalize) i18n / translate your app for many languages and locations (locales). #code
+* [Leaflet](http://leafletjs.com/) Interactive map UIs made easy. #code
 * [Lusca](https://github.com/krakenjs/lusca) Secure your Express application. By the Kraken team at PayPal.
-* [Express](http://expressjs.com/) The most popular framework for Node.
-* [Stampit](https://github.com/ericelliott/stampit) Create objects from reusable, composable behaviors. Prototypal inheritance with stamps.
-* [Credential](https://github.com/ericelliott/credential) If you write Node apps with password logins, you need Credential.
-* [cuid](https://github.com/ericelliott/cuid) GUIDs are broken - use cuid, instead.
-* [velocity](http://julian.com/research/velocity/) & [Velocity Motion Designer (VMD)](http://julian.com/research/velocity/#vmd) UI animation library.
-* [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)  A fast [json-schema](http://json-schema.org/) validator.
-* [inquirer.js](https://github.com/SBoudrias/Inquirer.js) Great library for building CLI tools.
-* [rimraf](https://github.com/isaacs/rimraf) `rm -rf` util for nodejs. Great for npm scripts.
+* [Express](http://expressjs.com/) The most popular framework for Node. #code
+* [Stampit](https://github.com/ericelliott/stampit) Create objects from reusable, composable behaviors. Prototypal inheritance with stamps. #code
+* [Credential](https://github.com/ericelliott/credential) If you write Node apps with password logins, you need Credential. #code
+* [cuid](https://github.com/ericelliott/cuid) GUIDs are broken - use cuid, instead. #code
+* [velocity](http://julian.com/research/velocity/) & [Velocity Motion Designer (VMD)](http://julian.com/research/velocity/#vmd) UI animation library. #code
+* [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)  A fast [json-schema](http://json-schema.org/) validator. #code
+* [inquirer.js](https://github.com/SBoudrias/Inquirer.js) Great library for building CLI tools. #code
+* [rimraf](https://github.com/isaacs/rimraf) `rm -rf` util for nodejs. Great for npm scripts. #code
+* [Wemo.io Open Source VR Tools](https://wemo.io/os) #code
 
 
 ## React
