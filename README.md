@@ -178,6 +178,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) #library
 * [React Hot Loader](https://gaearon.github.io/react-hot-loader/) Live patching for Webpack #library
 * [livereactload](https://github.com/milankinen/livereactload) Live patching for Browserify #library
+* [Redux](https://github.com/rackt/redux) Predictable state container (store) for JavaScript apps #library
+* [Redux Devtools](https://github.com/gaearon/redux-devtools) DevTools for Redux with hot reloading, timetravel debugging, and customizable UI
 * [Cerebral](https://github.com/christianalfoni/cerebral) An immutable store for global app state #library
 * [react-native](https://github.com/facebook/react-native) React for mobile devices #library
 * [react-art](https://github.com/reactjs/react-art) React for SVG or canvas #library
@@ -189,6 +191,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Relay & GraphQL
 
+* [Relay](https://github.com/facebook/relay) Build data-driven React applications. #library
 * [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
 * [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html)
 * [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
@@ -243,6 +246,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [HTML5 Weekly](http://html5weekly.com/)
 * [EchoJS](http://www.echojs.com/)
 * [JavaScript Live](https://jslive.com/)
+* [JavaScript.com News](https://www.javascript.com/news)
 * [Node Module Of The Week](http://nmotw.in)
 * [JavascriptKicks](http://javascriptkicks.com)
 
@@ -306,7 +310,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [JavaScript Daily](https://twitter.com/JavaScriptDaily) News and links
 * [JavaScriptKicks](https://twitter.com/JavaScriptKicks) News and links
 * [Jordan Harband](https://twitter.com/ljharb) Keeping us ahead of the JS curve
-* [Kyle Simpson](https://twitter.com/getify) Author, YDKJS - O'Reilly, JS Instructor, open web evangelist
 * [Marijn Haverbeke](https://twitter.com/marijnjh) Author, "Eloquent JavaScript"
 * [Nicholas C. Zakas](https://twitter.com/slicknet) Author, speaker
 * [Nick Morgan](https://twitter.com/skilldrick) Author, "JavaScript for Kids"
