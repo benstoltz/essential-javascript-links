@@ -132,7 +132,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [es7-shim](https://www.npmjs.com/package/es7-shim) Experimental. Use with caution. #code
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) A fairly comprehensive list of HTML5 API polyfills. #code
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) You'll want to cherry-pick the best of this for your production apps. See [Initializr](http://www.initializr.com) #code
-* [prod-module-boilerplate](https://github.com/ericelliott/prod-module-boilerplate) A boilerplate for production-ready JavaScript packages #code
+* [UpUp](https://www.talater.com/upup/) Make sure your site works even when your user is offline. #code
+* [cf-package](https://github.com/cloverfield-tools/cf-package) A Cloverfield scaffold that generates new modules (npm packages) complete with npm scripts and useful boilerplate. #code
 * [The Universal React Boilerplate](https://github.com/ericelliott/universal-react-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify. #code
 * [NodeGoat](https://github.com/OWASP/NodeGoat) Identify security vulnerabilities in your Node apps. #code
 * [lightning.js](https://github.com/olark/lightningjs) Async fetch load 3rd party JS & expose a promise API. #code
@@ -193,14 +194,15 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 * [Relay](https://github.com/facebook/relay) Build data-driven React applications. #library
 * [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
-* [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html)
-* [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
-* [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47)
-* [Getting started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
+* [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) #video
+* [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html) #article
+* [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47) #article
+* [Mutations in Relay (slideshow)](https://speakerdeck.com/laneyk/mutations-in-relay) Slideshow + speaker notes #slideshow
+* [Relay and Routing](https://medium.com/@cpojer/relay-and-routing-36b5439bad9) by Christoph Pojer. #article
+* [Getting started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/) #article
 * [GraphQL Specification](https://github.com/facebook/graphql)
-* [GraphQL Reference Implementation](https://github.com/graphql/graphql-js)
-* [graphql-server](https://github.com/RisingStack/graphql-server) A GraphQL server implementation with Mongo / Mongoose
-* [Mutations in Relay (slideshow)](https://speakerdeck.com/laneyk/mutations-in-relay) Slideshow + speaker notes
+* [GraphQL Reference Implementation](https://github.com/graphql/graphql-js) #code
+* [graphql-server](https://github.com/RisingStack/graphql-server) A GraphQL server implementation with Mongo / Mongoose #code
 
 
 ## Web Components
