@@ -34,6 +34,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Required Viewing
 * [Classical Inheritance is Obsolete: How to Think in Prototypal OO](https://vimeo.com/69255635) by [Eric Elliott](https://twitter.com/_ericelliott) #talk
+* [Everything You Never Wanted to Know About JavaScript Numbers](https://www.youtube.com/watch?v=MqHDDtVYJRI) by Bartek Szopka #talk
 * [Asynchronous Programming at Netflix](https://www.youtube.com/watch?v=gawmdhCNy-A) [Jafar Husain](https://twitter.com/jhusain) #talk
 * [What is Reactive Programming?](https://www.youtube.com/watch?v=dwP1TNXE6fc) [Jafar Husain](https://twitter.com/jhusain) explains reactive programming #talk
 * [Immutability: Putting The Dream Machine To Work](https://www.youtube.com/watch?v=SiFwRtCnxv4) by [David Nolen](https://twitter.com/swannodette) #talk
@@ -137,7 +138,6 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [The Universal React Boilerplate](https://github.com/ericelliott/universal-react-boilerplate) Write apps using the same code for both the client and the server using Node, Express, and Browserify. #code
 * [NodeGoat](https://github.com/OWASP/NodeGoat) Identify security vulnerabilities in your Node apps. #code
 * [lightning.js](https://github.com/olark/lightningjs) Async fetch load 3rd party JS & expose a promise API. #code
-* [dotty](https://github.com/deoxxa/dotty) Get deep properties using dot notation without throwing. e.g., `dotty.get(req, 'user.id');` #code
 * [native-promise-only](https://github.com/getify/native-promise-only) An ECMAScript standard promise polyfill by Kyle Simpson. #code
 * [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) A [WHATWG fetch](https://fetch.spec.whatwg.org/). standard polyfill. #code
 * [sseasy](https://github.com/heroku/sseasy) Server Sent Events for Node (HTML5 standard push notifications). #code
@@ -160,6 +160,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [cuid](https://github.com/ericelliott/cuid) GUIDs are broken - use cuid, instead. #code
 * [velocity](http://julian.com/research/velocity/) & [Velocity Motion Designer (VMD)](http://julian.com/research/velocity/#vmd) UI animation library. #code
 * [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)  A fast [json-schema](http://json-schema.org/) validator. #code
+* [is-express-schema-valid](https://github.com/voronianski/is-express-schema-valid) is-my-json-valid as Express middleware for `req.body` `req.query` and `req.params`. #code
 * [inquirer.js](https://github.com/SBoudrias/Inquirer.js) Great library for building CLI tools. #code
 * [rimraf](https://github.com/isaacs/rimraf) `rm -rf` util for nodejs. Great for npm scripts. #code
 * [Wemo.io Open Source VR Tools](https://wemo.io/os) #code
@@ -220,6 +221,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 ## QA / Deployment / Monitoring / CI
 
 * [PM2](https://github.com/Unitech/pm2) Process monitoring / self repair
+* [Pingdom](https://www.pingdom.com) Response monitoring and alert management (because incidents happen).
 * [New Relic](http://newrelic.com/) Deep insights into the performance and health of your production apps
 * [Sauce Labs](https://saucelabs.com/) Cross platform web application testing with great collaboration and integration support
 * [Travis CI](https://travis-ci.org/) CI, of course
@@ -251,6 +253,8 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [JavaScript.com News](https://www.javascript.com/news)
 * [Node Module Of The Week](http://nmotw.in)
 * [JavascriptKicks](http://javascriptkicks.com)
+* [Javascript Jabber](https://devchat.tv/js-jabber)
+* [5 Minutes of Javascript](https://fivejs.codeschool.com/)
 
 
 ## Pasting / sharing code
