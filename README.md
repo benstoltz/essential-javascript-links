@@ -13,30 +13,32 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ## Required Reading (Online resources)
 
-* [Learn JavaScript Essentials (for all skill levels)](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2) One clear path to JavaScript mastery
-* [The Two Pillars of JavaScript Part 1: Prototypal OO](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
-* [The Two Pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
-* [JavaScript Objects](http://davidwalsh.name/javascript-objects) An excellent explanation of inheritance in JavaScript by Kyle Simpson
-* [How to Use ES6 for Universal JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2) A Babel config walkthrough
-* [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/) Make your JS apps more secure by freezing builtins.
-* [JavaScript Application Architecture on the Road to 2015](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b) Addy Osmani
+* [Learn JavaScript Essentials (for all skill levels)](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2) One clear path to JavaScript mastery #article
+* [The Two Pillars of JavaScript Part 1: Prototypal OO](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3) #article
+* [The Two Pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4) #article
+* [JavaScript Objects](http://davidwalsh.name/javascript-objects) An excellent explanation of inheritance in JavaScript by Kyle Simpson #article
+* [How to Use ES6 for Universal JavaScript Apps](https://medium.com/javascript-scene/how-to-use-es6-for-isomorphic-javascript-apps-2a9c3abe5ea2) A Babel config walkthrough #article
+* [Unapply attack](http://glebbahmutov.com/blog/unapply-attack/) Make your JS apps more secure by freezing builtins. #article
+* [JavaScript Application Architecture on the Road to 2015](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b) Addy Osmani #article
 * [Modularity](http://jlongster.com/Modularity) A pragmatic take on the tiny modules vs batteries included approach
-* [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd) The Way of the Functional Programmer
-* [Reactive MVC and the Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom) Great read, even if you're not a React user.
-* [Introduction to Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
-* [The General Theory of Reactivity](https://github.com/kriskowal/gtor) What is all this talk about reactive? Functional? Promises? This is the beginning of a reactive programming bible.
+* [Computer Science in JavaScript](https://github.com/nzakas/computer-science-in-javascript) by Nicholas C. Zakas #article
+* [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd) The Way of the Functional Programmer #article
+* [Reactive MVC and the Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom) Great read, even if you're not a React user. #article
+* [Introduction to Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)  #article
+* [The General Theory of Reactivity](https://github.com/kriskowal/gtor) What is all this talk about reactive? Functional? Promises? This is the beginning of a reactive programming bible. #article
 * [Why Functional Programming Matters](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.pdf) by John Hughes, 1984 #paper #pdf
-* [ES6 Generators](http://davidwalsh.name/es6-generators) A series of blog posts by Kyle Simpson
-* [Typed JavaScript](http://www.2ality.com/2014/10/typed-javascript.html) Excellent post about the state of typed JavaScript by Axel Rauschmayer
-* [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html) by @rauschma #AMDisDead
-* [javascript-sdk-design](https://github.com/huei90/javascript-sdk-design) A guide for people building JavaScript client SDKs
-* [Advanced Performance Audits with DevTools](http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/) In-depth perf case studies with Paul Irish
+* [ES6 Generators](http://davidwalsh.name/es6-generators) A series of blog posts by Kyle Simpson #article
+* [Typed JavaScript](http://www.2ality.com/2014/10/typed-javascript.html) Excellent post about the state of typed JavaScript by Axel Rauschmayer  #article
+* [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html) by @rauschma  #article
+* [javascript-sdk-design](https://github.com/huei90/javascript-sdk-design) A guide for people building JavaScript client SDKs #article
+* [Advanced Performance Audits with DevTools](http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/) In-depth perf case studies with Paul Irish #article
 
 ## Required Viewing
 * [Classical Inheritance is Obsolete: How to Think in Prototypal OO](https://vimeo.com/69255635) by [Eric Elliott](https://twitter.com/_ericelliott) #talk
 * [Everything You Never Wanted to Know About JavaScript Numbers](https://www.youtube.com/watch?v=MqHDDtVYJRI) by Bartek Szopka #talk
 * [Asynchronous Programming at Netflix](https://www.youtube.com/watch?v=gawmdhCNy-A) [Jafar Husain](https://twitter.com/jhusain) #talk
 * [What is Reactive Programming?](https://www.youtube.com/watch?v=dwP1TNXE6fc) [Jafar Husain](https://twitter.com/jhusain) explains reactive programming #talk
+* [Introduction to Reactive Programming](https://egghead.io/series/introduction-to-reactive-programming) by André Staltz #video #course
 * [Immutability: Putting The Dream Machine To Work](https://www.youtube.com/watch?v=SiFwRtCnxv4) by [David Nolen](https://twitter.com/swannodette) #talk
 * [The Essence of FRP](http://begriffs.com/posts/2015-07-22-essence-of-frp.html) by Conal Elliott #talk
 * [JavaScript API Design Principles](https://www.youtube.com/watch?v=HYl7ReNB5TA) by Ariya Hidayat #talk
@@ -157,6 +159,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Express](http://expressjs.com/) The most popular framework for Node. #code
 * [Stampit](https://github.com/ericelliott/stampit) Create objects from reusable, composable behaviors. Prototypal inheritance with stamps. #code
 * [Credential](https://github.com/ericelliott/credential) If you write Node apps with password logins, you need Credential. #code
+* [node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) Easy JSON Web Token auth. #code
 * [cuid](https://github.com/ericelliott/cuid) GUIDs are broken - use cuid, instead. #code
 * [velocity](http://julian.com/research/velocity/) & [Velocity Motion Designer (VMD)](http://julian.com/research/velocity/#vmd) UI animation library. #code
 * [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)  A fast [json-schema](http://json-schema.org/) validator. #code
@@ -174,26 +177,27 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [JSX Looks Like an Abomination but it's Good for You](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918) My take on JSX #article
 * [Baby's First Reaction](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd) Build your first working React component #article
 * [Immutable Data and React](https://www.youtube.com/watch?v=I7IdS-PbEgI&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr) by [Lee Byron](https://twitter.com/leeb) #video
-* [react-stampit](https://github.com/stampit-org/react-stampit) Composable, classless React components made easy #library
-* [react-engine](https://github.com/paypal/react-engine) PayPal's isomorphic React view engine for Express or Kraken #library
-* [Stilr](https://github.com/kodyl/stilr) Simplify JS component styles #library
-* [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) #library
-* [React Hot Loader](https://gaearon.github.io/react-hot-loader/) Live patching for Webpack #library
-* [livereactload](https://github.com/milankinen/livereactload) Live patching for Browserify #library
-* [Redux](https://github.com/rackt/redux) Predictable state container (store) for JavaScript apps #library
+* [react-stampit](https://github.com/stampit-org/react-stampit) Composable, classless React components made easy #code
+* [react-engine](https://github.com/paypal/react-engine) PayPal's isomorphic React view engine for Express or Kraken #code
+* [Stilr](https://github.com/kodyl/stilr) Simplify JS component styles #code
+* [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) #code
+* [React Hot Loader](https://gaearon.github.io/react-hot-loader/) Live patching for Webpack #code
+* [livereactload](https://github.com/milankinen/livereactload) Live patching for Browserify #code
+* [Redux](https://github.com/rackt/redux) Predictable state container (store) for JavaScript apps #code
 * [Redux Devtools](https://github.com/gaearon/redux-devtools) DevTools for Redux with hot reloading, timetravel debugging, and customizable UI
-* [Cerebral](https://github.com/christianalfoni/cerebral) An immutable store for global app state #library
-* [react-native](https://github.com/facebook/react-native) React for mobile devices #library
-* [react-art](https://github.com/reactjs/react-art) React for SVG or canvas #library
-* [react-canvas](https://github.com/Flipboard/react-canvas) React for canvas #library
-* [react-three](https://github.com/Izzimach/react-three) Three.js rendering for React #library
+* [Cerebral](https://github.com/christianalfoni/cerebral) An immutable store for global app state #code
+* [react-native](https://github.com/facebook/react-native) React for mobile devices #code
+* [VelocityReact](https://github.com/twitter-fabric/velocity-react) Great animations for React #code
+* [react-art](https://github.com/reactjs/react-art) React for SVG or canvas #code
+* [react-canvas](https://github.com/Flipboard/react-canvas) React for canvas #code
+* [react-three](https://github.com/Izzimach/react-three) Three.js rendering for React #code
 * [react.rocks](http://react.rocks/) Pinterest-style directory of online demos with available code
 * [TodoMVC in React](http://todomvc.com/examples/react/) #example
 * [JSX Specification](http://facebook.github.io/jsx/) #documentation
 
 ## Relay & GraphQL
 
-* [Relay](https://github.com/facebook/relay) Build data-driven React applications. #library
+* [Relay](https://github.com/facebook/relay) Build data-driven React applications. #code
 * [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
 * [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) #video
 * [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html) #article
