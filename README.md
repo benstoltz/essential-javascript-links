@@ -115,10 +115,10 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 
 ### Transpilers
 
-* [Babel](https://github.com/babel/babel) Transpile ES2015 (ES6), ES7 to ES5, JSX to React
-* [CoffeeScript](http://coffeescript.org/)
-* [Emscripten](http://kripken.github.io/emscripten-site/) Frequently used for C/C++ JavaScript ports
-* [ES6 tools](https://github.com/addyosmani/es6-tools) Addy Osmani's ES6 Tools list
+* [Babel](https://github.com/babel/babel) Transpile ES2015 (ES6), ES7 to ES5, JSX to React.
+* [TypeScript](http://www.typescriptlang.org/) TypeScript's structural types are worth a look, but I don't use it.
+* [Emscripten](http://kripken.github.io/emscripten-site/) Frequently used for C/C++ JavaScript ports.
+* [ES6 tools](https://github.com/addyosmani/es6-tools) Addy Osmani's ES6 Tools list.
 
 
 ## JavaScript environments
@@ -175,6 +175,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Introducing React](https://www.youtube.com/watch?v=XxVg_s8xAms) #video
 * [React blog](http://facebook.github.io/react/blog/) Official React blog
 * [JSX Looks Like an Abomination but it's Good for You](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918) My take on JSX #article
+* [React Pure Component Starter](https://github.com/ericelliott/react-pure-component-starter) Learn React pure components #code
 * [Baby's First Reaction](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd) Build your first working React component #article
 * [Immutable Data and React](https://www.youtube.com/watch?v=I7IdS-PbEgI&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr) by [Lee Byron](https://twitter.com/leeb) #video
 * [react-stampit](https://github.com/stampit-org/react-stampit) Composable, classless React components made easy #code
@@ -200,6 +201,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Relay](https://github.com/facebook/relay) Build data-driven React applications. #code
 * [Data Fetching for React](https://www.youtube.com/watch?v=9sc8Pyc51uU) Relay & GraphQL Described
 * [Introducing Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) #video
+* [Let's Learn GraphQL](https://learngraphql.com/) #course
 * [Building the Facebook Newsfeed with Relay](https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html) #article
 * [Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47) #article
 * [Mutations in Relay (slideshow)](https://speakerdeck.com/laneyk/mutations-in-relay) Slideshow + speaker notes #slideshow
@@ -323,7 +325,7 @@ Some of these links are affiliate links, meaning that if you make a purchase, I 
 * [Marijn Haverbeke](https://twitter.com/marijnjh) Author, "Eloquent JavaScript"
 * [Nicholas C. Zakas](https://twitter.com/slicknet) Author, speaker
 * [Nick Morgan](https://twitter.com/skilldrick) Author, "JavaScript for Kids"
+* [Nicolas Bevacqua](https://twitter.com/nzgb) Author "JavaScript Application Design", Speaker, Open-Source Evangelist
 * [Paul Irish](https://twitter.com/paul_irish) Developer evangelist, Chrome dev tools champion
 * [Reginald Braithwaite](https://twitter.com/raganwald) Author, "JavaScript Allongé", speaker, PagerDuty
 * [YDKJS](https://twitter.com/ydkjs) You Don't Know JS, O'Reilly book series by Kyle Simpson
-* [Nicolas Bevacqua](https://twitter.com/nzgb) Author "JavaScript Application Design", Speaker, Open-Source Evangelist
